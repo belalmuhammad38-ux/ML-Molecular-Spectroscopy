@@ -1,53 +1,31 @@
 # ML for Molecular Spectroscopy 🧪
 
-## What This Project Does
-This project uses Machine Learning to predict 
-molecular energy properties and visualize 
-IR absorption spectra of molecules.
+## Setup Instructions
 
-Inspired by cutting edge research in 
-computational chemistry and ML spectroscopy.
+### Step 1 - Clone Repository
+git clone github.com/YourUsername/project
 
-## Why This Matters
-Traditional quantum chemistry calculations 
-take hours per molecule.
-This ML model predicts in milliseconds!
+### Step 2 - Install Requirements
+pip install rdkit
+pip install scikit-learn
+pip install numpy
+pip install matplotlib
+pip install seaborn
 
-## Dataset
-QM9 Dataset
-- 134,000 molecules
-- Quantum chemical properties
-- Source: moleculenet.org
+### Step 3 - Download Dataset
+Download QM9 dataset from:
+https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/qm9.csv
 
-## Model Performance
-- Algorithm: Random Forest
-- R2 Score: 0.95+
-- Training samples: 100,000+
+Save qm9.csv in same folder as notebook!
 
-## Molecules Tested
-| Molecule | SMILES |
-|----------|--------|
-| Ethanol  | CCO    |
-| Aspirin  | CC(=O)Oc1ccccc1C(=O)O |
-| Caffeine | CN1C=NC2=C1C(=O)N(C(=O)N2C)C |
-| Benzene  | c1ccccc1 |
+### Step 4 - Run Notebook
+Open Jupyter Notebook
+Run all cells top to bottom!
+Model will be generated automatically!
 
-## Tools Used
-- Python
-- Scikit-learn
-- RDKit
-- Numpy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
-
-## How To Run
-1. Clone this repository
-2. Install requirements
-3. Open Jupyter Notebook
-4. Run all cells top to bottom
-
-## Author
-Muhammad Bilal
-BS Chemistry Student
-University of Agriculture of Faisalabad
+## Note About Large Files
+qm9.csv and molecular_model.pkl are not included in this repository because they are too large for Github.
+Follow setup instructions above to generate them! 
+are too large for GitHub.
+Follow setup instructions above to 
+generate them locally!
