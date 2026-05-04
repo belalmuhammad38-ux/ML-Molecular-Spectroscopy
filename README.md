@@ -1,4 +1,4 @@
-# ML for Molecular Spectroscopy 🧪
+# Predicting internal energy property using ML 🧪
 
 ## Setup Instructions
 
